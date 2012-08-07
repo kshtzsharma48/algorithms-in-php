@@ -4,6 +4,7 @@ namespace Algorithm\Sort;
 
 /**
  * @see http://www.stoimen.com/blog/2012/02/13/computer-algorithms-insertion-sort/
+ * @see http://bit.ly/bvlfR1 MIT course containing insertion sort
  */
 class InsertionSort
 {
