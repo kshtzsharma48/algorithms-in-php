@@ -1,6 +1,8 @@
 Algorithms in PHP
 =================
 
+[![Build Status](https://secure.travis-ci.org/breerly/algorithms-in-php.png?branch=master)](http://travis-ci.org/breerly/algorithms-in-php)
+
 This repository is a collection of algorithms and teachings written in PHP.
 
 ### Prequisites.
