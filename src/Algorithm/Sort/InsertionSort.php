@@ -40,14 +40,14 @@ class InsertionSort
         for ($i = 1; $i < count($array); $i++) {
 
             // store current value in temp
-            $temp = $array[$i];
+            $current = $array[$i];
 
             // store counter in temp
             $j = $i;
 
             // while temp counter is greater than or equal to 0,
             // and the previous value in the array is greater than temp
-            while (($j >= 0) && ($array[$j-1] > $temp)) {
+            while (($j >= 0) && ($array[$j-1] > $current)) {
 
                 // move the previous value forward one
                 $array[$j] = $array[$j - 1];
@@ -57,7 +57,7 @@ class InsertionSort
             }
 
             // move the current value backwards
-            $array[$j] = $temp;
+            $array[$j] = $current;
         }
     }
 }
