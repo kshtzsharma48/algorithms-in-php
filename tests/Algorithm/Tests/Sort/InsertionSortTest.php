@@ -10,21 +10,11 @@ class InsertionSortTest extends \PHPUnit_Framework_TestCase
     {
         $this->subject = new InsertionSort();
     }
-
-    /**
-     * @todo add timing mechanism
-     */
+    
     public function testShouldSort()
     {
         $array = array(1,5,3,19,3,6,11);
-        
-        // copy array and use PHP to sort
-        $sorted = $array;
-        sort($sorted);
-
-        // sort the array using the subject
         $this->subject->sort($array);
-
-        $this->assertEquals($array, $sorted);
+        $this->assertEquals($array, array(1,3,3,5,6,11,19));
     }
 }
